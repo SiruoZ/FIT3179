@@ -14,13 +14,21 @@
 <body>
   
 <div id="choropleth_map"></div>
+  
+<div id="bar_chart"></div>
 
 <script type="text/javascript">
-
+  var spec1 = "https://SiruoZ.github.io/FIT3179/js/chorophleth.vg.json";
   var spec2 = "https://SiruoZ.github.io/FIT3179/js/visualization.vg.json";
-  vegaEmbed('#choropleth_map', spec2).then(function(result) {
+  
+  vegaEmbed('#choropleth_map', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
+  
+  vegaEmbed('#bar_chart', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
 </script>
 
 </body>
