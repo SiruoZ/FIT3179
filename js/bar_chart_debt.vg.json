@@ -27,7 +27,7 @@
             "signal": "{\"Year\": isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"], \"Total Debt\": format(datum[\"Total Known Debt\"], \"$.2s\")}"
           },
           "description": {
-            "signal": "\"Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Total Known Debt: \" + (format(datum[\"Total Known Debt\"], \"$.2S\")) + \"; Total Debt: \" + (format(datum[\"Total Known Debt\"], \"$.2s\"))"
+            "signal": "\"Year: \" + (isValid(datum[\"Year\"]) ? datum[\"Year\"] : \"\"+datum[\"Year\"]) + \"; Total Known Debt: \" + (format(datum[\"Total Known Debt\"], \"$.2s\")) + \"; Total Debt: \" + (format(datum[\"Total Known Debt\"], \"$.2s\"))"
           },
           "x": {"scale": "x", "field": "Year"},
           "y": {"scale": "y", "field": "Total Known Debt"},
@@ -86,7 +86,7 @@
       "orient": "left",
       "grid": false,
       "title": "Total Known Debt",
-      "format": "$.2S",
+      "format": "$.2s",
       "labelOverlap": true,
       "tickCount": {"signal": "ceil(height/40)"},
       "zindex": 0
