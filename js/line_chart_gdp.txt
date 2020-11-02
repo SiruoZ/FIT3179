@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "background": "white",
+  "width": 600,
+  "height": 400,
+  "title": {"text": "Global GDP"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/SiruoZ/FIT3179/main/data/GLOBALGDP.csv"
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "nominal", "axis": {"values": [1960, 1965, 1970, 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2019], "labelAngle": 0}},
+    "y": {"field": "Global GDP", "type": "quantitative", "axis": {"format": "$.2s"}},
+    "color": {"value": "#41ab5d"},
+    "tooltip": [
+          {"field": "Year", "title": "Year"},
+          {"field": "Global GDP", "type": "quantitative", "format": "$.2s", "title": "Global GDP (USD$)"}
+        ]
+  },
+  "config": {}
+}
