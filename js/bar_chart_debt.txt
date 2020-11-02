@@ -11,7 +11,7 @@
   "mark": "line",
   "encoding": {
     "x": {"field": "Year", "type": "nominal", "axis": {"values": [1990, 1995, 2000, 2005, 2010, 2015, 2019]}},
-    "y": {"field": "Total Known Debt", "type": "quantitative", "axis": {"format": "$.2S"}},
+    "y": {"field": "Total Known Debt", "type": "quantitative", "axis": {"format": "$.2s"}},
     "color": {"value": "#e31a1c"},
     "tooltip": [
           {"field": "Year", "title": "Year"},
