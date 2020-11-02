@@ -2,8 +2,8 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "background": "white",
   "padding": 5,
-  "width": 700,
-  "height": 450,
+  "width": 950,
+  "height": 540,
   "title": {"text": "GDP", "frame": "group"},
   "style": "cell",
   "data": [
