@@ -81,7 +81,7 @@
         <div class="pure-u-3-5">
   
   
-          <div id="bar_chart_gdp" class="vis-container"></div>
+          <div id="line_chart_gdp" class="vis-container"></div>
   
           </div>
     </div>
@@ -113,7 +113,7 @@
         <div class="pure-u-3-5">
   
   
-          <div id="bar_chart_debt" class="vis-container"></div>
+          <div id="line_chart_debt" class="vis-container"></div>
   
           </div>
     </div>
@@ -143,12 +143,12 @@
   
 </div> <!-- end page -->
 <script type="text/javascript">
-  var spec1 = "https://SiruoZ.github.io/FIT3179/js/bar_chart_gdp.vg.json";
+  var spec1 = "https://SiruoZ.github.io/FIT3179/js/line_chart_gdp.vg.json";
   var spec2 = "https://SiruoZ.github.io/FIT3179/js/choropleth_gdp.vg.json";
-  var spec3 = "https://SiruoZ.github.io/FIT3179/js/bar_chart_debt.vg.json";
+  var spec3 = "https://SiruoZ.github.io/FIT3179/js/line_chart_debt.vg.json";
   var spec4 = "https://SiruoZ.github.io/FIT3179/js/choropleth_debt.vg.json";
   
-  vegaEmbed('#bar_chart_gdp', spec1).then(function(result) {
+  vegaEmbed('#line_chart_gdp', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
@@ -156,7 +156,7 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  vegaEmbed('#bar_chart_debt', spec3).then(function(result) {
+  vegaEmbed('#line_chart_debt', spec3).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
