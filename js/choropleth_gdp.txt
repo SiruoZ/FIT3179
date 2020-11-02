@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "GDP",
-  "width": 960,
-  "height": 540,
+  "width": 720,
+  "height": 480,
   "data": {
     "url": "https://raw.githubusercontent.com/SiruoZ/FIT3179/main/js/ne_110m.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
